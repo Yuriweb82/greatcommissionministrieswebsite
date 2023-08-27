@@ -536,16 +536,7 @@ header.sticky {
     section{
         padding: 60px 3% 50px;
     }
-    .home {
-    position: relative;
-    height: 100vh;
-    width: 130%;
-    background-image: url(background.jpg);
-    background-size: cover;
-    background-position: bottom center;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    
 }
 }
 
