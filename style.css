@@ -431,7 +431,10 @@ header.sticky {
     color: #979797;
     font-size: 15px;
 }
-
+.copyright a {
+    font-weight: 600;
+    color: var(--main-color);
+}
 @media (max-width: 1700px){
     header{
         padding: 18px 8%;
