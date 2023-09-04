@@ -280,7 +280,7 @@ header.sticky {
     will-change: block;
 }
 
-.box h4 {
+.box h6 {
     position: absolute;
     left: 25px;
     bottom: 95px;
@@ -505,6 +505,20 @@ header.sticky {
     .navbar.open{
         left: 0;
     }
+               .box h4 {
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+    .box h6 {
+    position: absolute;
+    left: 5px;
+    bottom: 35px;
+    font-size: 18px;
+    font-weight: 500;
+}
 }
 
 @media (max-width: 800px){
@@ -517,6 +531,20 @@ header.sticky {
     .newsletter-content{
         grid-template-columns: 1fr;
     }
+           .box h4 {
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    font-size: 13px;
+    font-weight: 700;
+}
+    .box h6 {
+    position: absolute;
+    left: 5px;
+    bottom: 25px;
+    font-size: 13px;
+    font-weight: 500;
+}
 }
 
 @media (max-width: 600px){
@@ -527,6 +555,20 @@ header.sticky {
     .home{
         height: 85vh;
     }
+       .box h4 {
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    font-size: 10px;
+    font-weight: 700;
+}
+    .box h6 {
+    position: absolute;
+    left: 5px;
+    bottom: 20px;
+    font-size: 10px;
+    font-weight: 500;
+}
 }
 
 @media (max-width: 450px){
@@ -539,6 +581,21 @@ header.sticky {
     section{
         padding: 60px 3% 50px;
     }
+    .box h4 {
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    font-size: 7px;
+    font-weight: 700;
+}
+    .box h6 {
+    position: absolute;
+    left: 5px;
+    bottom: 20px;
+    font-size: 7px;
+    font-weight: 500;
+}
+}
     
 }
 }
