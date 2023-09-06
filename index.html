@@ -242,35 +242,17 @@
                     <h2>Ready to Join Us?</h2>
                     <p>Get intouch with us to know what's taking place in Great commission ministries.</p>
                 </div>
-                <form action="">
-                    <input id="email" type="email" placeholder="Enter your email..." required>
-                    <input type="submit" value="Get started" class="btn" onclick = "sendMail();">
+                <form id="form">
+                     <input type="text" name="email" id="email" placeholder="Enter your email..." required>
+                     <input type="submit" id="button" value="Send Email" class="btn" >
                 </form>
                 <script type="text/javascript"
-     src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-<script>
-    function sendMail(){
-   (function(){
-      emailjs.init("6FHuLCh6sNRFE7END");
-   })();
-    
-        var params = {
-        email: document.querySelector("#email").value,
-    };
-    
-    var serviceID = "service_se25vtk";
-    var templateID = "template_khnao4l";
-        
-    emailjs.send(serviceID, templateID. params)
-    .then( res => {
-        alert("Email Sent Successfully!");
-    })
-    .catch();
- }
-</script>
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
-            </div>
+<script type="text/javascript">
+  emailjs.init('6FHuLCh6sNRFE7END')
+</script>
+         </div>
         </section>
         
         <!---footer section design-->
@@ -316,12 +298,6 @@
        
         <!---custom js file link-->
         <script src="script.js"></script>
-    
-    
-    
-    
-    
-    
     </body>
 
 
