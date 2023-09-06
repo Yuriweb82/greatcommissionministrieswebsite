@@ -41,6 +41,7 @@
                 <div class="bx bx-menu" id="menu-icon"></div>
             
             </div>
+ 
         </header>
         
         <!---home section design-->
@@ -242,9 +243,33 @@
                     <p>Get intouch with us to know what's taking place in Great commission ministries.</p>
                 </div>
                 <form action="">
-                    <input type="email" placeholder="Enter your email..." required>
-                    <input type="submit" value="Get started" class="btn">
+                    <input id="email" type="email" placeholder="Enter your email..." required>
+                    <input type="submit" value="Get started" class="btn" onclick = "sendMail();">
                 </form>
+                <script type="text/javascript"
+     src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script>
+    function sendMail(){
+   (function(){
+      emailjs.init("6FHuLCh6sNRFE7END");
+   })();
+    
+        var params = {
+        email: document.querySelector("#email").value,
+    };
+    
+    var serviceID = "service_se25vtk";
+    var templateID = "template_khnao4l";
+        
+    emailjs.send(serviceID, templateID. params)
+    .then( res => {
+        alert("Email Sent Successfully!");
+    })
+    .catch();
+ }
+</script>
+
             </div>
         </section>
         
