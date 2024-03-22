@@ -174,12 +174,12 @@ body {
         margin: 6px;
     }
     .custom-button {
-        bottom: 90px; 
+        bottom: 60px; 
     }
 }
 
 @media (max-width: 390px) {
     .custom-button {
-        bottom: 180px; 
+        bottom: 60px; 
     }
 }
