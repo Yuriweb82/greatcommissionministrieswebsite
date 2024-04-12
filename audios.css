@@ -4,6 +4,7 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 .music {
     width: 70%;
     max-width: 500px;
@@ -12,6 +13,7 @@ body {
     border-radius: 40px;
     box-shadow: -1px 2px 7px 3px #2b2767;
     border: 2px solid #3e3b3b;
+    margin-top: 30px;
 }
 .header {
     padding: 20px;
